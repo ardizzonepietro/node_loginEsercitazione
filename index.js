@@ -10,6 +10,7 @@ app.get("/", (req, res)=>{
   
 })
 app.post("/index.ejs", (req, res)=>{
+console.log("user: "+req.body.user+" pw: "+req.body.pw)
 
 })
 app.listen(port, ()=>console.info("sto ascoltandando"))
