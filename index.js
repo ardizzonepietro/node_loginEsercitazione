@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-const port = 800
+const port = 8000
 let jsonFile = require('jsonfile');
 app.set('views', "./views")
 app.set("view engine", "ejs")
